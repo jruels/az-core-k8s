@@ -36,7 +36,7 @@ Now let’s check the logs
 kubectl logs -f <POD NAME>
 ```
 
-If everything looks good continue 
+You may see some warning about Transparent Huge Pages (THP). They are safe to ignore.
 
 ### Create the Redis leader Service 
 The guestbook applications needs to communicate to the Redis leader to write its data. You need to apply a Service to proxy the traffic to the Redis leader Pod. A Service defines a policy to access the Pods.
@@ -112,6 +112,7 @@ The guestbook application has a web frontend serving the HTTP requests written i
 ## Create the Guestbook Frontend Deployment
 Apply the YAML file using the `--record` flag.
 NOTE: We are using the `--record` flag to keep a history of the deployment, which enables us to rollback.
+
 ```
 kubectl apply --record -f manifests/frontend-deployment.yaml
 ```
@@ -146,19 +147,15 @@ kubectl get services
 
 You should see something like this 
 ```
-NAME           TYPE        CLUSTER-IP     EXTERNAL-IP   PORT(S)        AGE
-frontend       NodePort    10.107.73.47   <none>        80:31495/TCP   34s
-kubernetes     ClusterIP   10.96.0.1      <none>        443/TCP        44m
-redis-leader   ClusterIP   10.107.62.78   <none>        6379/TCP       11m
-redis-follower    ClusterIP   10.98.54.128   <none>        6379/TCP       6m
+NAME             TYPE           CLUSTER-IP     EXTERNAL-IP   PORT(S)        AGE
+frontend         LoadBalancer   10.0.180.168   4.156.24.99   80:30369/TCP   44s
+kubernetes       ClusterIP      10.0.0.1       <none>        443/TCP        22m
+redis-follower   ClusterIP      10.0.167.175   <none>        6379/TCP       2m38s
+redis-leader     ClusterIP      10.0.94.156    <none>        6379/TCP       3m27s
 ```
 
 ### Viewing the Frontend Service 
-To load the front end in a browser visit your leader servers IP and use the port from previous command. 
-
-In the example above we can see that `frontend` Service is running on `NodePort` 31495 so I would visit the following in a web browser 
-
-`http://<leaderIP>:31495`
+To load the front end, visit the [EXTERNAL-IP] from the previous command in a browser. If the IP is blocked, please try loading it on a phone or device that is not connected to the corporate network.
 
 ## Scale Web Frontend 
 Scaling up or down is easy because your servers are defined as a Service that uses a Deployment controller.
@@ -289,10 +286,7 @@ kubectl rollout history deployment/frontend --revision=<number>
 ## Cleanup
 To clean up everything run 
 ```
-kubectl delete deployment -l app=redis
-kubectl delete service -l app=redis
-kubectl delete deployment -l app=guestbook
-kubectl delete service -l app=guestbook
+kubectl delete --all -f manifests/
 ```
 
 Confirm everything was deleted 
