@@ -10,4 +10,4 @@ The instructor will provide instructions for connecting to the lab environments.
 ### Day 1   
 Lab 1: [Deploy Kubernetes](labs/deploy-k8s/)  
 Lab 2: [Getting started with Kubernetes](labs/pods/)   
-Lab 3: [Your First Deployment](labs/simple-deployment/)  
+Lab 3: [Multi-tier Application](labs/multi-tier/)  
