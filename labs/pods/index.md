@@ -155,7 +155,7 @@ exit
 ### Deploy MySQLDB and connect to the client
 1. Deploy a MySQL DB image
 ```
-kubectl run mysql-demo --image=mysql:5.5 --port 3306 --env="MYSQL_ROOT_PASSWORD=password"
+kubectl run mysql-demo --image=mysql:9 --port 3306 --env="MYSQL_ROOT_PASSWORD=password"
 ```
 
 2. Show all of the running Pods, note the name of the Pod you just created
