@@ -41,12 +41,12 @@ kubectl get pods
 
 7. Get information about Pod in `json` format 
 ```
-kubectl get pod nginx-pod-lab-<name> -o json 
+kubectl get pod nginx-pod-lab -o json 
 ```
 
 8. Now get info about it in `YAML` syntax
 ```
-kubectl get pod nginx-pod-lab-<name> -o yaml
+kubectl get pod nginx-pod-lab -o yaml
 ```
 
 9. Delete everything
@@ -55,7 +55,7 @@ kubectl delete all --all
 ```
 
 ### Create Pod from manifest
-1. Enter the lab directory: `cd az-core-k8s/labs/commands`
+1. Enter the lab directory: `cd $HOME/az-core-k8s/labs/pods`
 2. In the manifests directory, you will find  `nginx-kube.yml` . This file will launch a simple `nginx` server. 
 3. Deploy it with the following:
 ```
@@ -69,9 +69,8 @@ kubectl get pods
 
 You should see something like this: 
 ```
-NAME                            READY   STATUS    RESTARTS   AGE
-nginx-pod-lab-6b47f84ff-t9qzk   1/1     Running   0          18m
-nginx-web                       1/1     Running   0          15s
+NAME        READY   STATUS    RESTARTS   AGE
+nginx-web   1/1     Running   0          4s
 ```
 
 3. Cleanup everything 
@@ -166,15 +165,14 @@ kubectl get pods
 
 Sample output:
 ```
-NAME                            READY   STATUS    RESTARTS   AGE
-nginx-pod-lab-6b47f84ff-t9qzk   1/1     Running   0          42m
-nginx-web                       1/1     Running   0          23m
-two-containers                  1/2     Running   0          16m
+NAME             READY   STATUS     RESTARTS   AGE
+mysql-demo       1/1     Running    0          38s
+two-containers   1/2     NotReady   0          4m42s
 ```
 
 3. Log into the new MySQL container: 
 ```
-kubectl exec -it <mysql-pod-name> -- mysql -ppassword
+kubectl exec -it mysql-demo -- mysql -ppassword
 ```
 
 4. Exit MySQL container
