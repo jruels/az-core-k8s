@@ -39,7 +39,7 @@ az aks create \
 ### **Authenticate to the AKS Cluster**
 
 ```bash
-az aks get-credentials --resource-group <myResourceGroup> --name <student#>myAKSCluster
+az aks get-credentials --resource-group <myResourceGroup> --name <student#>AKSCluster
 ```
 
 - This command configures `kubectl` to use your credentials for the AKS cluster.
