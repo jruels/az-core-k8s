@@ -25,9 +25,3 @@ Lab 8: [Horizontal Pod Autoscaler](labs/hpa/)
 
 
  
-
-
-
-### 
-
-### 
