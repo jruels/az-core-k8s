@@ -1,5 +1,4 @@
-# Advanced Kubernetes Lab 05
-# ConfigMap Redis cache
+# ConfigMap lab
 
 ## Create ConfigMap for Redis Cache
 ```
