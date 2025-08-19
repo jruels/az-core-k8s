@@ -7,7 +7,7 @@ The instructor will provide instructions for connecting to the lab environments.
 
 ## Labs
 [Windows VM access](VM_access.md)  
-[Azure credentials](https://docs.google.com/spreadsheets/d/1cYVlFaznBtFekmgpBA33HIrxLfWBJed-rpVi1WR-u90/edit?usp=sharing)
+[Azure credentials](https://docs.google.com/spreadsheets/d/1pCI7LfcpFAHFMwJMSBUzu6f7soRfk79ScxjfoEZa9sk/edit?usp=sharing)
 
 ### Day 1   
 Lab 1: [Deploy Kubernetes](labs/deploy-k8s/)  
