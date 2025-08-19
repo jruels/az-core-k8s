@@ -1,27 +1,27 @@
-| Name                              | Username     | Virtual Machine Password | Virtual Machine Portal |
-|:----------------------------------|:-------------|:-------------------------|:-----------------------|
-| Rajesh Balasubramaniam            | WSAUTO25-121 | TekWsauto25!             | https://my.ablazedesktop.com |
-| Shivanand Bharti                  | WSAUTO25-122 | TekWsauto25!             |                        |
-| Francisco Botello                 | WSAUTO25-123 | TekWsauto25!             |                        |
-| Vijay Dasari                      | WSAUTO25-124 | TekWsauto25!             |                        |
-| Angelo Fiorucci                   | WSAUTO25-125 | TekWsauto25!             |                        |
-| Kashinath Gande                   | WSAUTO25-126 | TekWsauto25!             |                        |
-| Ramesh Gomatam                    | WSAUTO25-127 | TekWsauto25!             |                        |
-| Michael Hasslinger                | WSAUTO25-128 | TekWsauto25!             |                        |
-| Balkrishna Kamat                  | WSAUTO25-129 | TekWsauto25!             |                        |
-| Surat Karimov                     | WSAUTO25-130 | TekWsauto25!             |                        |
-| Jeffrey Lee                       | WSAUTO25-131 | TekWsauto25!             |                        |
-| Kenneth McNeil Jr                 | WSAUTO25-132 | TekWsauto25!             |                        |
-| DIPEN MISTRY                      | WSAUTO25-133 | TekWsauto25!             |                        |
-| Devanshu Mukherjee                | WSAUTO25-134 | TekWsauto25!             |                        |
-| Salman Nawaz                      | WSAUTO25-135 | TekWsauto25!             |                        |
-| Prasanth Parambath                | WSAUTO25-136 | TekWsauto25!             |                        |
-| Dharmendra Patel                  | WSAUTO25-138 | TekWsauto25!             |                        |
-| Manivannan Perumalswami           | WSAUTO25-139 | TekWsauto25!             |                        |
-| Arianne Pinedo                    | WSAUTO25-140 | TekWsauto25!             |                        |
-| Sai Krishna Veni Sannidhi Venkata | WSAUTO25-141 | TekWsauto25!             |                        |
-| Harbachan Sardar                  | WSAUTO25-142 | TekWsauto25!             |                        |
-| Siddhartha Sinha                  | WSAUTO25-143 | TekWsauto25!             |                        |
-| Yogeshkumar Sukumar               | WSAUTO25-144 | TekWsauto25!             |                        |
-| Tagore Talluri                    | WSAUTO25-145 | TekWsauto25!             |                        |
-| Usha Jayanthi Vangipuram          | WSAUTO25-146 | TekWsauto25!             |                        |
+| Name                | Username     | Virtual Machine Password | Virtual Machine Portal |
+|:--------------------|:-------------|:-------------------------|:-----------------------|
+| Christopher Ballard | WSAUTO25-151 | TekWsauto25!             | https://my.ablazedesktop.com |
+| Alex Chandy         | WSAUTO25-152 | TekWsauto25!             |                        |
+| Christopher Cokis   | WSAUTO25-153 | TekWsauto25!             |                        |
+| Supriya Dodda       | WSAUTO25-154 | TekWsauto25!             |                        |
+| Darcy Gaona         | WSAUTO25-155 | TekWsauto25!             |                        |
+| Paramdeep Kalra     | WSAUTO25-156 | TekWsauto25!             |                        |
+| Aparna Kodukula     | WSAUTO25-157 | TekWsauto25!             |                        |
+| Govind Kondakindi   | WSAUTO25-158 | TekWsauto25!             |                        |
+| Srinivas Kotha      | WSAUTO25-159 | TekWsauto25!             |                        |
+| Samuel Lin          | WSAUTO25-160 | TekWsauto25!             |                        |
+| Joel Mathai         | WSAUTO25-161 | TekWsauto25!             |                        |
+| Michael Martin      | WSAUTO25-162 | TekWsauto25!             |                        |
+| Purvaj Motiwala     | WSAUTO25-163 | TekWsauto25!             |                        |
+| Sanjeev Pal         | WSAUTO25-164 | TekWsauto25!             |                        |
+| Vish Palaniappan    | WSAUTO25-165 | TekWsauto25!             |                        |
+| Nipa Parekh         | WSAUTO25-166 | TekWsauto25!             |                        |
+| Kartheek Parsi      | WSAUTO25-168 | TekWsauto25!             |                        |
+| Hiren Patel         | WSAUTO25-169 | TekWsauto25!             |                        |
+| Annapoorna Pathi    | WSAUTO25-170 | TekWsauto25!             |                        |
+| Vijayan Ramasamy    | WSAUTO25-171 | TekWsauto25!             |                        |
+| Qureshi Kamran      | WSAUTO25-172 | TekWsauto25!             |                        |
+| Deepak Saxena       | WSAUTO25-173 | TekWsauto25!             |                        |
+| Kiran Vattikonda    | WSAUTO25-174 | TekWsauto25!             |                        |
+| Sudhir Vinjamur     | WSAUTO25-175 | TekWsauto25!             |                        |
+| Belwin Samuel Winston Melchizedec | WSAUTO25-176 | TekWsauto25! |                        |
