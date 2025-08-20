@@ -7,8 +7,9 @@ The instructor will provide instructions for connecting to the lab environments.
 
 ## Labs
 [Group A Windows VM access](VM_Group_A.md)  
-[Group B Windows VM access](VM_Group_B.md)  
 [Group A Azure credentials](https://docs.google.com/spreadsheets/d/1cYVlFaznBtFekmgpBA33HIrxLfWBJed-rpVi1WR-u90/edit?usp=sharing)  
+
+[Group B Windows VM access](VM_Group_B.md)  
 [Group B Azure credentials](https://docs.google.com/spreadsheets/d/1pCI7LfcpFAHFMwJMSBUzu6f7soRfk79ScxjfoEZa9sk/edit?usp=sharing)
 
 ### Day 1   
