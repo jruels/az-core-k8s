@@ -6,8 +6,10 @@ This site includes the labs for Azure Core Kubernetes class.
 The instructor will provide instructions for connecting to the lab environments.
 
 ## Labs
-[Windows VM access](VM_access.md)  
-[Azure credentials](https://docs.google.com/spreadsheets/d/1pCI7LfcpFAHFMwJMSBUzu6f7soRfk79ScxjfoEZa9sk/edit?usp=sharing)
+[Group A Windows VM access](VM_Group_A.md)  
+[Group B Windows VM access](VM_Group_B.md)  
+[Group A Azure credentials](https://docs.google.com/spreadsheets/d/1cYVlFaznBtFekmgpBA33HIrxLfWBJed-rpVi1WR-u90/edit?usp=sharing)  
+[Group B Azure credentials](https://docs.google.com/spreadsheets/d/1pCI7LfcpFAHFMwJMSBUzu6f7soRfk79ScxjfoEZa9sk/edit?usp=sharing)
 
 ### Day 1   
 Lab 1: [Deploy Kubernetes](labs/deploy-k8s/)  
