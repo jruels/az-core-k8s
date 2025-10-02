@@ -11,7 +11,7 @@ We will deploy the guestbook demo application, which comprises a Redis leader, R
 The guestbook application stores its data in Redis. It writes data to a Redis leader instance and reads data from multiple Redis follower instances.
 
 ```bash
-cd $HOME/kube-secure-apps/labs/multi-tier
+cd $HOME/az-core-k8s/labs/multi-tier
 kubectl apply -f manifests/redis-leader-deployment.yaml
 kubectl get pods
 ```
